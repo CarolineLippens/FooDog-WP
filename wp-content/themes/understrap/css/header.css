@@ -1,2 +1,42 @@
 body {
-  background: yellow !important; }
+  background-color: white;
+  color: black; }
+
+.titre_header {
+  font-size: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Crimson Text', serif; }
+
+.nav-link {
+  color: black !important;
+  font-family: 'Open Sans', sans-serif; }
+
+.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.navbar {
+  border-bottom: #a0a0a0 1px solid; }
+
+.icon_container {
+  max-width: 95%; }
+
+.img_icon_header {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px; }
+
+.img_icon_header_container {
+  margin: 0;
+  padding: 0; }

@@ -358,3 +358,4 @@ function _make_cat_compat( &$category ) {
 		$category['category_parent'] = &$category['parent'];
 	}
 }
+?>

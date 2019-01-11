@@ -43,6 +43,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 					?>
 
 				<?php endwhile; // end of the loop. ?>
+					<div>plop</div>
+					<div class="row">
+    <div class="col-12">
+        <div class="row">
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <div class="col-6">
+                    <?php the_post_thumbnail('single-post'); ?>
+                        <h4 class="d-flex justify-content-center"><?php the_category(); ?></h4>
+                    <a href="<?php the_permalink(); ?>" class="link-title"><h3 class="text-center"><?php the_title(); ?></h3></a>
+                    <p class="text-center"><?php the_excerpt(); ?></p>
+                </div>
+            <?php endwhile; endif; ?>
+        </div>
+    </div>
+	<div>plop</div>
+</div>
 
 			</main><!-- #main -->
 
