@@ -43,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					?>
 
 				<?php endwhile; // end of the loop. ?>
-					<div>plop</div>
+				
 					<div class="row">
     <div class="col-12">
         <div class="row">
@@ -57,7 +57,6 @@ $container = get_theme_mod( 'understrap_container_type' );
             <?php endwhile; endif; ?>
         </div>
     </div>
-	<div>plop</div>
 </div>
 
 			</main><!-- #main -->

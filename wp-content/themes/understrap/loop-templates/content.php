@@ -10,48 +10,27 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<article class="col-12 mb-2 d-flex" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
-
+	<div class="entry-header col-6 m-0 p-0">
+	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?> <!--Image-->
+	
+</div><!--div image -->
+	<div class="entry-content col-6 ">
+		<div class="m-3">
 		<?php
+		 echo single_cat_title(); 
 		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+			sprintf( '<h2 class="entry-title col-12 "><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
 			'</a></h2>'
 		);
-		?>
-
-		<?php if ( 'post' == get_post_type() ) : ?>
-
-			<div class="entry-meta">
-				<?php understrap_posted_on(); ?>
-			</div><!-- .entry-meta -->
-
-		<?php endif; ?>
-
-	</header><!-- .entry-header -->
-
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-
-	<div class="entry-content">
-
-		<?php the_excerpt(); ?>
-
-		<?php
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
+		?><!--Titre de l'article -->
+		</div>
+		<div class="m-2 mt-3">
+		<?php the_content(); ?>
+		</div>
+		<div><i class="fas fa-share"></i> Share</div>[icon name= »flag » class= »2x spin border »]
 
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->

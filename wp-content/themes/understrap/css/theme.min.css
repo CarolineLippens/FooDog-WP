@@ -11534,3 +11534,11 @@ body {
 .bande-title {
   background-color: #F7F7F7;
   font-size: 3rem; }
+
+.page-header {
+  border: 5px dotted blue;
+  margin: 0 !important; }
+
+article header {
+  border: 5px double red;
+  margin: 0 !important; }
