@@ -1,0 +1,37 @@
+.open{
+    font-family: $open;
+}
+.post-categories li a{
+    color: orangered;
+    text-decoration: none; 
+    &:hover{
+        text-decoration: none;
+    }
+}
+ul{
+    text-decoration: none; 
+    padding: 1rem;
+    padding-left:8rem;
+    list-style-type: none; 
+}
+.title{
+    font-style: bold ;
+    color:black!important;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.content{
+    color: #5a5a5a;
+}
+.gray{
+    color: gray!important;
+}
+h2 a {
+    width: 50%;
+    color: orangered;
+    text-decoration: none; 
+    &:hover{
+        text-decoration: none;
+    }
+}

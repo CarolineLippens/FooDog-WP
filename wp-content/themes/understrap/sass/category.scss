@@ -1,8 +1,38 @@
 $bandetitle : #F7F7F7 ;
+$crimson: Crimson text;
+$open:Open sans;
+
 body{
     background: white!important;
+    font-family: $crimson;
 }
 .bande-title{
  background-color: $bandetitle;
  font-size: 3rem;
+ font-family: $open;
+}
+.pagination{
+    display: flex;
+    margin-left: 40%;
+}
+.page-item{
+
+    border-radius: 50%;
+    border: 0.1rem solid rgb(165, 165, 165);
+    padding:0.4rem;
+    margin: 0.5rem;
+    justify-content: center;
+}
+.page-link{
+    background-color: white;
+    border-radius: 50%;
+    border: 0.00001rem solid white;
+   
+}
+.current{
+    background-color: rgb(87, 87, 87)!important;
+    border: none;
+}
+.active{
+    background-color: rgb(87, 87, 87);
 }

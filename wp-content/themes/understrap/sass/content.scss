@@ -1,8 +1,41 @@
-.page-header{
-    border:5px dotted blue;
-    margin: 0!important;
+.end{
+    border-bottom: 0.1rem solid #f1f1f1;
+    padding-bottom: 2rem;
+    
 }
-article header{
-    border:5px double red;
-    margin:0!important;
+.border{
+    background-color: white;
+    border-radius: 50%;
+    border: 1rem solid black;
+    padding: 0.6rem;
+}
+.size-large{
+    width: 28rem;
+
+}
+.margin{
+    margin-left: 2rem;
+}
+.open{
+    font-family: $open;
+}
+.categorie{
+    color: orangered;
+}
+.title{
+    font-weight: bold  ;
+    font-size: 1rem;
+    color:black!important;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.content{
+    color: #5a5a5a;
+}
+.gray{
+    color: gray!important;
+}
+.understrap-read-more-link{
+    display: none;
 }
