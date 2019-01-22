@@ -1,9 +1,11 @@
 .open{
     font-family: $open;
+    font-size: 1rem;
 }
 .post-categories li a{
     color: orangered;
     text-decoration: none; 
+    padding-left:8rem;
     &:hover{
         text-decoration: none;
     }
@@ -11,7 +13,7 @@
 ul{
     text-decoration: none; 
     padding: 1rem;
-    padding-left:8rem;
+   
     list-style-type: none; 
 }
 .title{
@@ -28,10 +30,15 @@ ul{
     color: gray!important;
 }
 h2 a {
+    font-size: 1rem;
     width: 50%;
     color: orangered;
     text-decoration: none; 
     &:hover{
         text-decoration: none;
+        color:rgb(160, 43, 0);
     }
+}
+.categorieMarginAccueil{
+    margin-top: 6rem;
 }

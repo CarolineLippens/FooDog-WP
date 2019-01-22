@@ -1,0 +1,119 @@
+.nomSite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+h4 {
+  color: orange;
+  text-align: center; }
+
+.input-group-text {
+  color: white;
+  background-color: #ff8d6a; }
+
+.titre_News {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px; }
+
+.bt_f {
+  background: #3B5998;
+  color: white;
+  border-radius: 25%; }
+
+.bt_p {
+  background: #cb2027;
+  color: white;
+  border-radius: 25%; }
+
+.bt_t {
+  background: #55ACEE;
+  color: white;
+  border-radius: 25%; }
+
+.bt_c {
+  background: #838383;
+  color: white;
+  border-radius: 25%; }
+
+.barre_reseaux {
+  padding-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.barre_reseaux p {
+  text-transform: uppercase; }
+
+.under_search_bloc1 {
+  border-right: 5px; }
+
+.barre_reseaux1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #838383;
+  border-bottom: 1px solid #838383; }
+
+.barre_reseaux1 .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.barre_reseaux1 .bloc_share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 80px; }
+
+.barre_reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.barre_reseaux .bloc_share {
+  border-radius: 50%;
+  display: inline-block; }
+
+.dot i {
+  padding: 5px 5px; }
+
+.container .b {
+  padding-top: 40px; }
+
+.barre_reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 5px; }
+
+.barre_reseaux .share {
+  width: 100px;
+  padding: 10px;
+  height: 30px;
+  border-radius: 4px 4px 4px 4px; }
+
+.share:hover {
+  opacity: 0.7; }
+
+.under_input_group .superfood h6 {
+  border-right: 1px solid #838383; }
+
+.images {
+  width: 30%; }

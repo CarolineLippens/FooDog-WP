@@ -46,7 +46,7 @@ $popular_posts_loop = new WP_Query( $popular_posts_args);
 				<div class=" col-md-12 m-0 ">
 					<?php if ( has_post_thumbnail()) : ?>
 					<a href=<?php the_permalink(); ?> title= »<?php the_title_attribute(); ?> » ><?php the_post_thumbnail('large'); ?></a>
-					<h2 class="categorie"><?php the_category(); ?></h2>
+					<h2 class="categorie offset-1"><?php the_category(); ?></h2>
 					<h3 class="title"><a class= "title" href=<?php the_permalink(); ?> title= »<?php the_title_attribute(); ?> »><?php the_title(); ?></a></h3>
 					<?php endif ?>
 				</div>
@@ -67,7 +67,7 @@ $popular_posts_loop = new WP_Query( $popular_posts_args);
 		</div>          
     </div>
 </div> <!-- end #content -->
-<div class=" col-md-9">
+<div class=" col-md-9 categorieMarginAccueil">
 	<h5 class="title_categorie_footer offset-3 mt-3 mb-3">Featured Post</h5>
 	<?php
 			 $catquery = new WP_Query( 'cat=9&posts_per_page=3' ); 
@@ -84,7 +84,7 @@ $popular_posts_loop = new WP_Query( $popular_posts_args);
 			<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?> <!--Image-->
 			</div><!--div image -->
 			<div class="entry-content col-5 p-0 margin">
-			<h2 class="post-categories col-12"><?php the_category('<p></p>'); ?></h2>
+			<h2 class="post-categories col-10 offset-1"><?php the_category('<p></p>'); ?></h2>
 				<div class="mb-5 mt-3 col-12 p-0 open">
 					<?php
 					the_title(

@@ -1,0 +1,189 @@
+
+//menu navbar
+.nomSite
+{
+    display: flex;
+    flex-direction: row;
+}
+
+h4
+{
+    color: orange; 
+    text-align: center;
+}
+.input-group-text
+{
+    color: white;
+    background-color: #ff8d6a;
+}
+.titre_News
+{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+// ---barre de reseaux sociaux---
+
+
+
+
+//css des boutons de reseaux sociaux
+.bt_f
+{
+    background: #3B5998;
+    color: white;
+    border-radius: 25%;
+}
+
+.bt_p
+{
+    background: #cb2027;
+    color: white;
+    border-radius: 25%;
+}
+
+.bt_t
+{
+    background: #55ACEE;
+    color: white;
+    border-radius: 25%;
+}
+
+
+
+.barre_reseaux
+{
+    padding-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.barre_reseaux p
+{
+    text-transform: uppercase;
+}
+.under_search_bloc1
+{
+ border-right: 5px;  
+
+}
+
+ // barre de partage des reseaux sociaux
+
+.barre_reseaux1
+{
+    display: flex;
+    border-top: 1px solid #838383;
+    border-bottom: 1px solid #838383;
+   
+}
+
+.barre_reseaux1 .row
+{
+    align-items: center;
+}
+
+.barre_reseaux1 .bloc_share 
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+// barre de reseaux1
+.barre_reseaux
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.barre_reseaux .bloc_share
+{
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot i
+{
+    
+   
+    padding: 5px 5px;
+}
+
+
+// fin de la barre reseaux sociaux
+
+.container .b
+{
+ padding-top: 40px;
+}
+.barre_reseaux 
+{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 5px;
+}
+
+.barre_reseaux .share{
+
+        width: 100px;
+        padding: 10px;
+        height: 30px; 
+        border-radius: 4px 4px 4px 4px; 
+    }
+    
+
+.share:hover{
+  opacity: 0.7;
+}
+
+
+// container de la under_input_group 
+.under_input_group .superfood h6
+{
+    border-right: 1px solid #838383;
+}
+.images{
+    width: 30%;
+ }
+ .wp-post-image{
+     display:flex;
+     justify-content: center;
+ }
+ 
+ .img_icon_single1{
+     height: 25px;
+     width: 25px;
+     margin-right:0.5rem;
+     margin-left: 2rem; 
+     border-radius: 50%;
+     padding: 0.25rem;
+     background-color: #3B5998;
+ }
+ .img_icon_single2{
+    margin-right:0.5rem;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 0.25rem;
+    background-color: rgb(73, 190, 206);
+}
+.img_icon_single3{
+    height: 25px;
+     width: 25px;
+     border-radius: 50%;
+     padding: 0.25rem;
+    background-color: rgb(201, 9, 9);
+}
+.comment, .bloc_comment{
+    color: white!important;
+    border-radius: 5%!important;
+    background-color: rgb(31, 31, 31);
+
+}
+.white{
+    color:white;
+}
